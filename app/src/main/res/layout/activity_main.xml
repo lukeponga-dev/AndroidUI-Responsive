@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="edit text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum eros sit amet posuere imperdiet. Aenean mattis placerat justo, eget lacinia nisi aliquam quis. Fusce augue neque, scelerisque et tellus sit amet, ullamcorper sollicitudin eros. Integer commodo nibh eu turpis tempor facilisis. Sed id velit urna. Pellentesque molestie quis magna quis vestibulum. Proin sit amet dapibus felis, nec accumsan tellus. Vestibulum diam purus, volutpat sit amet nibh id, faucibus mollis risus. Donec tincidunt, augue id dapibus rhoncus, nibh ex tincidunt augue, elementum rhoncus mi mi et ex.
+
+Ut sit amet tempus tellus, eget rutrum nisi. Duis accumsan tortor quis vestibulum luctus. Nunc interdum aliquet orci, eget rhoncus diam dapibus a. Cras vestibulum odio nunc, ut tempus dolor porta ut. Fusce vehicula pharetra lobortis. Phasellus euismod congue felis, eu tincidunt lacus scelerisque a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eleifend posuere nisl a faucibus. Vivamus a egestas massa. Donec sed ornare metus. Vivamus sit amet dignissim leo. Ut tristique ligula orci, ac malesuada ante aliquam at. Aliquam erat volutpat.
+
+Donec nec ante at augue semper lobortis. Phasellus felis nisi, finibus sed orci a, dapibus sollicitudin sapien. Proin placerat odio risus. Praesent fermentum porta tellus, sit amet fringilla lectus gravida nec. Nam vel sodales lorem. Maecenas dignissim, leo id feugiat facilisis, libero justo rutrum neque, quis gravida risus erat sit amet massa. Cras tortor tellus, varius non turpis id, pretium sagittis tortor. Curabitur vel urna eget velit pharetra egestas. Nullam quis est purus. Suspendisse potenti. Aenean ac congue augue, et congue lectus.
+
+Nam blandit turpis auctor, facilisis ipsum dignissim, ultricies ante. Duis aliquam bibendum vulputate. Nam ullamcorper urna sit amet laoreet sagittis. Vestibulum accumsan mi in nibh suscipit sollicitudin. Praesent malesuada libero ut odio feugiat malesuada. Nunc congue, tellus rutrum faucibus varius, turpis ipsum luctus ipsum, et tincidunt nibh nisl vitae nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque in lorem hendrerit, elementum libero sed, eleifend mi. Donec ac mauris at turpis gravida convallis eu eu libero. Aliquam et velit odio. Proin tristique enim ut libero fringilla, non tempus arcu venenatis. Donec efficitur tempor erat nec fringilla. Vivamus pellentesque laoreet purus vel interdum.
+
+Ut elit mauris, molestie vel commodo in, tristique at diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisl non elit bibendum ullamcorper. Fusce scelerisque, enim nec fringilla commodo, lacus tortor bibendum lorem, nec ullamcorper odio massa sed sem. Sed dapibus pretium nulla porttitor imperdiet. Duis luctus ex eu ullamcorper maximus. Aenean ligula tortor, accumsan interdum mauris vel, condimentum viverra enim. Quisque egestas ullamcorper orci ac euismod. Fusce sed leo quis ex varius hendrerit. Suspendisse potenti. Phasellus ultricies odio erat, nec fermentum tellus tempor ac."
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="20dp"/>
+
+    </ScrollView>
+
+</LinearLayout>
